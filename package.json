@@ -1,0 +1,16 @@
+{
+  "name": "jarvis-ts-lib",
+  "version": "1.0.2",
+  "description": "Jarvis typescript library",
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepack": "cp package.json dist/package.json && cd dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
